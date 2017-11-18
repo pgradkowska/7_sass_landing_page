@@ -1,0 +1,12 @@
+#form_section {
+    background-image: url(/background.png);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    
+    .form_section_right {
+        top:25%;
+        @include right-col-elements;
+    }
+}
