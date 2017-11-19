@@ -10,15 +10,15 @@
         @include right-col-elements;
     }
     
-    main_form {
-        bakground-color: $main-color;
+    #main_form {
+        background-color: $main-color;
         fieldset {
             border-style:none;
         }
         
-        input: not([type='submit']), texarea {
+        input:not([type='submit']), textarea {
             @include inputs;
-            margin-bottom:auto;
+            margin-bottom:10px;
             font-family: $main-font;  
         }
         

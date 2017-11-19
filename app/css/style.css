@@ -57,7 +57,7 @@ header {
     header #header_contact span {
       display: block; }
       header #header_contact span.call {
-        font-size: 0.8em; }
+        font-size: 1.3em; }
       header #header_contact span.number {
         font-size: 0.9em; }
 
@@ -72,18 +72,23 @@ header {
     position: absolute;
     right: 8%;
     width: 370px; }
-  #form_section main_form {
-    bakground-color: #001d8a;
-    input: false, texarea;
-    input-padding: 10px;
-    input-width: 100%;
-      input-margin-bottom: auto;
-      input-font-family: "Open Sans", sans-serif; }
-    #form_section main_form fieldset {
+  #form_section #main_form {
+    background-color: #001d8a; }
+    #form_section #main_form fieldset {
       border-style: none; }
-    #form_section main_form input[type='submit'] {
+    #form_section #main_form input:not([type='submit']), #form_section #main_form textarea {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+      font-family: "Open Sans", sans-serif; }
+    #form_section #main_form input[type='submit'] {
+      padding: 20px;
+      background-color: #ecd407;
+      font-size: 1.2em;
+      font-weight: 700;
+      border: 0px solid white;
       margin-bottom: 10px;
       transition: all .3s; }
-      #form_section main_form input[type='submit']:hover {
+      #form_section #main_form input[type='submit']:hover {
         background-color: white;
         cursor: pointer; }
