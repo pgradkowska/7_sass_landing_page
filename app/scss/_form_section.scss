@@ -1,5 +1,5 @@
 #form_section {
-    background-image: url(/background.png);
+    background-image: url(../../background.png);
     background-position: top;
     background-size: cover;
     height: 100vh;
@@ -9,4 +9,29 @@
         top:25%;
         @include right-col-elements;
     }
+    
+    main_form {
+        bakground-color: $main-color;
+        fieldset {
+            border-style:none;
+        }
+        
+        input: not([type='submit']), texarea {
+            @include inputs;
+            margin-bottom:auto;
+            font-family: $main-font;  
+        }
+        
+        input[type='submit'] {
+            @include inputs-submit;
+            margin-bottom: 10px;
+            transition:all .3s;
+            
+            &:hover {
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    
 }

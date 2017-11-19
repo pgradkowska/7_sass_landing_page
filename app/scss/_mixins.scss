@@ -10,3 +10,16 @@
     width: 370px;
     
 }
+
+@mixin inputs {
+    padding: 10px;
+    width: 100%;
+}
+
+@mixin inpts-submit {
+    padding:20px;
+    background-color: $yellow-color;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: 0px solid white;
+}
