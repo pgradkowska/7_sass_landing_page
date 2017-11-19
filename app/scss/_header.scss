@@ -8,7 +8,7 @@ header {
     padding: 20px 0;
     z-index: 10;
     
-    #header_logo {
+    .header_logo {
         display: inline-block;
         float:left;
         margin: 30px;
@@ -26,7 +26,7 @@ header {
     }
     
      
-    #header_contact {
+    .header_contact {
         display: inline-block;
         float:right;
         width: 300px;

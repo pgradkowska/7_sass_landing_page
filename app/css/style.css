@@ -32,33 +32,33 @@ header {
   color: white;
   padding: 20px 0;
   z-index: 10; }
-  header #header_logo {
+  header .header_logo {
     display: inline-block;
     float: left;
     margin: 30px; }
-    header #header_logo h1 {
+    header .header_logo h1 {
       display: inline-block;
       margin: 0; }
-    header #header_logo .fa {
+    header .header_logo .fa {
       font-size: 2em;
       float: left;
       margin: 0;
       color: #ecd407;
       line-height: 43px; }
-  header #header_contact {
+  header .header_contact {
     display: inline-block;
     float: right;
     width: 300px; }
-    header #header_contact .fa {
+    header .header_contact .fa {
       font-size: 2em;
       float: left;
       margin: 0;
       line-height: 45px; }
-    header #header_contact span {
+    header .header_contact span {
       display: block; }
-      header #header_contact span.call {
+      header .header_contact span.call {
         font-size: 1.3em; }
-      header #header_contact span.number {
+      header .header_contact span.number {
         font-size: 0.9em; }
 
 #form_section {
@@ -92,3 +92,35 @@ header {
       #form_section #main_form input[type='submit']:hover {
         background-color: white;
         cursor: pointer; }
+
+footer {
+  background-color: black;
+  padding: 50px 0;
+  color: white; }
+  footer .phone_footer {
+    text-align: center;
+    margin-bottom: 30px; }
+    footer .phone_footer .fa {
+      font-size: 2em;
+      margin: 0 auto;
+      line-height: 45px;
+      background-color: #ecd407;
+      color: black;
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      text-align: center;
+      line-height: 50px;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px; }
+  footer .mail_footer {
+    text-align: center;
+    margin-bottom: 30px; }
+    footer .mail_footer .fa {
+      font-size: 2em;
+      margin: 0 auto;
+      line-height: 45px; }
+  footer p {
+    text-align: center;
+    font-size: 0.8em; }

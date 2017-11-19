@@ -23,3 +23,9 @@
     font-weight: 700;
     border: 0px solid white;
 }
+
+@mixin fa-footer {
+    font-size: 2em;
+    margin: 0 auto;
+    line-height: 45px;
+}

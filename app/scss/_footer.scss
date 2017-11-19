@@ -1,0 +1,42 @@
+footer {
+    background-color: black;
+    padding: 50px 0;
+    color: white;
+    
+    
+
+    .phone_footer {
+        text-align: center;
+        margin-bottom: 30px;
+        
+        .fa {
+            @include fa-footer;
+            background-color: #ecd407;
+            color: black;
+            height: 50px;
+            width: 50px;
+                
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+            
+        }
+    }
+    
+    .mail_footer {
+         text-align: center;
+        margin-bottom: 30px;
+        
+        .fa {
+            @include fa-footer;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+}
